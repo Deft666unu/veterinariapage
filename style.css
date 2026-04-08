@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #b0cfdd;
+}
+
+header {
+    background-color: #2c6e91;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 80px;
+    border-radius: 10px;
+}
+.logo2 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 80px;
+    border-radius: 10px;
+}
+
+.fotoveterinaria {
+    width:10;
+    height:10;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #1b3a4b;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    color: white;
+    padding: 15px 25px;
+}
+
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.imagenes img {
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c6e91;
+}
+
+footer {
+    background-color: #1b3a4b;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
